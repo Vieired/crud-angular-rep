@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { ProdutosListComponent } from './produtos-list/produtos-list.component'
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
