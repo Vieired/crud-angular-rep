@@ -7,13 +7,15 @@ import { ProdutosListComponent } from './produtos-list/produtos-list.component'
 
 @NgModule({
   declarations: [
-    AppComponent, ProdutosListComponent
+    AppComponent, 
+    ProdutosListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ProdutosListComponent],
 })
 export class AppModule { }

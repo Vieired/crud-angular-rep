@@ -25,14 +25,13 @@ const ELEMENT_DATA: PeriodicElement[] = [
   templateUrl: './produtos-list.component.html',
   styleUrls: ['./produtos-list.component.sass']
 })
-export class ProdutosListComponent implements OnInit {
-
+export class ProdutosListComponent /*implements OnInit*/ {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  // ngOnInit() {
+  // }
 
 }
