@@ -9,8 +9,6 @@ export class MenuLateralComponent implements OnInit {
 
   constructor() { }
 
-  // shouldRun = [/(^|\.)plnkr\.co$/, /(^|\.)stackblitz\.io$/].some(h => h.test(window.location.host));
-
   ngOnInit() {
   }
 

@@ -22,8 +22,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
 
 @Component({
   selector: 'app-produtos-list',
-  templateUrl: 'produtos-list.component.html',
-  styleUrls: ['produtos-list.component.sass']
+  templateUrl: './produtos-list.component.html',
+  styleUrls: ['./produtos-list.component.css']
 })
 export class ProdutosListComponent {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
