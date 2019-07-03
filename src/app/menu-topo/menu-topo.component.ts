@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-menu-topo',
   templateUrl: './menu-topo.component.html',
-  styleUrls: ['./menu-topo.component.css']
+  styleUrls: ['./menu-topo.component.sass']
 })
 export class MenuTopoComponent implements OnInit {
 

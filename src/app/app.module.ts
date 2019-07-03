@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { routing } from './app.rounting';
-import { MatToolbar, MatSidenav } from '@angular/material';
+import { MatToolbar } from '@angular/material';
 
 import { HomeComponent } from './home/home.component';
 import { ProdutosListComponent } from './produtos-list/produtos-list.component';
@@ -14,12 +14,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    MatToolbar, MatSidenav,
+    MatToolbar,
     AppComponent, ProdutosListComponent, HomeComponent, 
     ContatoComponent, MenuTopoComponent, MenuLateralComponent
   ],
   imports: [
-    MatToolbar, MatSidenav,
+    MatToolbar,
     BrowserModule,
     AppRoutingModule,
     routing,
@@ -28,7 +28,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   providers: [],
   bootstrap: [AppComponent],
   entryComponents: [
-    MatToolbar, MatSidenav,
+    MatToolbar,
     ProdutosListComponent, MenuLateralComponent
   ],
 })
